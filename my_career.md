@@ -40,5 +40,16 @@
 - 英語 (5年以上前だがTOEIC820、業務にて英語で電話会議、メールなど経験あり)
 
 ### 資格等
+- 応用情報技術者試験
 - 統計検定2級
 - 数学好き
+
+### その他アピール事項
+- Go のロガーを作りました。
+  - https://github.com/suganoo/gologger
+- ネットワークスペシャリスト試験 4回落ちたことあります！(ネットワーク知識あります。)
+- データベーススペシャリスト試験 3回落ちたことあります！(DB知識あります。)
+- アルゴリズム学習中
+  - https://github.com/suganoo/algorithm_and_data_structure_for_procon
+- UdemyにてgRPC学習
+  - https://qiita.com/suganoooo/items/8bdf43542eb4ceb80044
