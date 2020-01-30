@@ -31,8 +31,6 @@
 ### SNS
 - Qiita
   - https://qiita.com/suganoooo
-- twitter
-  - https://twitter.com/suganoo
 - blog
   - https://blog.suganoo.net/
 
