@@ -12,13 +12,14 @@
     - Cloudera Hadoopの機能調査、不具合調査、Cloudera サポートへの質問対応
     - Hadoopクラスターの設定チューニング
     - 新規ログ取り込みの依頼対応
-    - Jenkinsの構築、ジョブ構築
+    - DockerによるJenkinsの構築、ジョブ構築
+    - ハードウエア障害、クラスター障害など全般的な障害調査・対応
   - 使用したプロダクトなど
     - (AWS)EC2, S3, SQS, SNS
     - python, Go, Shell
     - Hadoopディストリビューション：Cloudera
     - Hadoop, HDFS, Spark, Hive, Impala, beeline
-    - CentOS, Jenkins, Confluence, ansible
+    - CentOS, Jenkins, Confluence, Ansible, Docker
   - その他アピール事項
     - 2019年3月 Hadoop/Spark Conference Japan 2019 のLTにて発表
       - https://www.slideshare.net/suganoo1/2impalahadoop
@@ -42,21 +43,27 @@
   - 使用したプロダクトなど
     - 検索エンジン: Solr, Elasticsearch
     - MW: redis, rabbitMQ
-    - デプロイ: chef, ansible
-    - 監視: zabbix
+    - デプロイ: Chef, Ansible
+    - 監視: Zabbix
     - (AWS)EC2, S3
-    - 仮想環境ツール: vagrant, docker
-    - その他使用ツール: jmeter, jenkins, td-agent, norikra, rspec
+    - 仮想環境ツール: Vagrant, Docker
+    - その他使用ツール: Jmeter, Jenkins, td-agent, norikra, rspec
 - **2010/02 ~ 2012/02 (2年) カーナビソフトウエアの仕様策定**
   - 業務委託にて従事(以降すべて旧株式会社ソフトウエア興業所属)
   - 某大手メーカー企業にて常駐業務
-  - 大手自動車に納入用に、カーナビハードウエアのメーカーにて従事。
+  - 大手自動車への納入用に、カーナビハードウエアのメーカーにて従事。
   - EUカーナビソフトウエアの仕様調査。
   - 主な業務はカーナビソフトウエアの機能調査、オランダの企業と使用調査のため電話会議、など。
 - **2009/07 ~ 2010/01 (6か月) 電気回路図のドローイングソフトの開発**
   - 電機メーカー向けに通電イメージ、回路図をWindowsアプリケーションで描くソフトの開発。
   - 使用言語: C#
   - 担当業務: 基本設計、機能設計、製造、単体試験
+- **2007/06 ~ 2009/06 (2年) 3G携帯端末評価**
+  - 国内・海外メーカーの携帯端末の評価検証。
+  - 海外メーカー不具合のレポートを英語で作成。
+- **2006/10 ~ 2007/05 (7か月) 無線LANアプリのWindowsアプリ開発**
+  - 無線LANの電波強度を携帯端末に表示するアプリの開発。
+  - C++にて画面設計、および開発を担当。
 
 ## その他自己紹介
 ### SNS
