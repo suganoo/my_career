@@ -6,28 +6,30 @@
   - DSP広告企業にて常駐業務
   - 配信ログをHadoopにて管理(オンプレミス環境)、ログサイズ約2PB
   - 業務内容
-    - 配信ログの取り込みツールの作成(Python, Go)
-    - Cloudera Hadoopバージョンアップ作業、それに伴うジョブ等の全面移行
-    - クラスター移行に伴うクラスター間同期システムの構築(distcp後不要なファイルの同期)
-    - 定期的なHadoopの状況レポート作成、および状況共有MTGの開催
-    - レポートデータのためImpalaクエリログ、Hadoopの各DBサイズ、レコード件数を定期的にElasticsearchにインポートするシステムの構築、Kibanaによる描画構築(Python)
-    - Cloudera Hadoopの機能調査、不具合調査、Cloudera サポートへの質問対応
-    - Erasure Coding、Zstandard機能調査
-    - COMPUTE STATS機能調査、および障害対応
-    - Impala、Hiveのパーティション動作調査
-    - HadoopのメタデータDBの調査
-    - TestDFSIO、terasort、teragenによるHadoopのベンチマーク調査
-    - Namenodeのメタデータファイルの中身、およびバックアップ復旧調査
-    - Hadoopクラスターの設定チューニング
-    - AWSサービスで出力されるログの取り込みシステムの構築(SNS, SQS, EC2, Python, Ansible)
-    - HDFSに保管されたログファイル数の圧縮システムの構築(Go)
-    - airflow、luigi、Jenkins等のジョブスケジューラーの選定調査
-    - DockerによるJenkinsの構築、ジョブ構築
-    - 分析用途ログの定期的な件数確認ジョブ
-    - チーム内で使うジョブ標準の策定
-    - Jenkinsジョブの結果をDB、およびJIRAに取り込みジョブ実行分析が可能となるシステムの構築(Go)
-    - ハードウエア障害、クラスター障害、ディスク障害など全般的な障害の調査・対応
-    - チケット運用の推進
+    - Hadoopクラスター運用関連作業
+      - Cloudera Hadoopバージョンアップ作業、それに伴うジョブ等の全面移行
+      - クラスター移行に伴うクラスター間同期システムの構築(distcp後不要なファイルの同期)
+      - 定期的なHadoopの状況レポート作成、および状況共有MTGの開催
+      - レポートデータのためImpalaクエリログ、Hadoopの各DBサイズ、レコード件数を定期的にElasticsearchにイ  ンポートするシステムの構築、Kibanaによる描画構築(Python)
+      - Cloudera Hadoopの機能調査、不具合調査、Cloudera サポートへの質問対応
+      - Hadoopクラスターの設定チューニング
+      - ハードウエア障害、クラスター障害、ディスク障害など全般的な障害の調査・対応
+    - 各種調査、または業務ツール構築・運用関連作業
+      - 配信ログの取り込みツールの作成(Python, Go)
+      - Erasure Coding、Zstandard機能調査
+      - COMPUTE STATS機能調査、および障害対応
+      - Impala、Hiveのパーティション動作調査
+      - HadoopのメタデータDBの調査
+      - TestDFSIO、terasort、teragenによるHadoopのベンチマーク調査
+      - Namenodeのメタデータファイルの中身、およびバックアップ復旧調査
+      - AWSサービスで出力されるログの取り込みシステムの構築(SNS, SQS, EC2, Python, Ansible)
+      - HDFSに保管されたログファイル数の圧縮システムの構築(Go)
+    - ジョブスケジューラー関連の調査および運用
+      - airflow、luigi、Jenkins等のジョブスケジューラーの選定調査
+      - DockerによるJenkinsの構築、ジョブ構築
+      - Jenkinsジョブの結果をDB、およびJIRAに取り込み、ジョブ実行の分析が可能となるシステムの構築(Go)
+      - チーム内で使うジョブ標準の策定
+      - チケット運用の推進
   - 使用したプロダクトなど
     - (AWS)EC2, S3, SQS, SNS
     - Shell, Python, Go
@@ -47,13 +49,15 @@
       - 各部署からのメール質問対応
       - 検索システムの負荷性能試験、JVMのチューニング、GC機能調査
       - 性能検証時にPythonにてログのパースをし、Elasticsearch + Kibanaによる描画ツールシステムの構築
-      - 検索性能の向上調査
+      - 検索性能の向上調査、およびアドバイス業務
+      - 自然言語分析の勉強会開催
     - Elasticsearch
       - PKG化されている検索システムの構築・メンテナンス
       - 機能拡張-バージョンアップ時の検証
       - 描画ツールによるログ解析
       - 検索システムの負荷性能試験、JVMのチューニング
       - 検索システムの監視
+      - 検索ログをFluentdにて取り込み監視
     - MWの導入支援
       - redis, rabbitMQの機能調査
       - 単体試験自動化(rspec)
@@ -108,3 +112,5 @@
   - https://github.com/suganoo/algorithm_and_data_structure_for_procon
 - UdemyにてgRPC学習
   - https://qiita.com/suganoooo/items/8bdf43542eb4ceb80044
+- UdemyにてKafka学習中
+  - https://www.udemy.com/course/apache-kafka/
