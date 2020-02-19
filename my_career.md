@@ -36,12 +36,12 @@
       - Jenkinsジョブの結果をDB、およびJIRAに取り込み、ジョブ実行の分析が可能となるシステムの構築(Go)
       - チーム内で使うジョブ標準の策定
       - チケット運用の推進
-  - 使用したプロダクト
-    - (AWS)EC2, S3, SQS, SNS
-    - Shell, Python, Go
+  - 使用したプロダクト等
+    - AWS：EC2, S3, SQS, SNS、RDBS
+    - PG言語：Shell, Python, Go
     - Hadoopディストリビューション：Cloudera
-    - Hadoop, HDFS, Spark, Hive, Impala, beeline
-    - CentOS, Jenkins, Confluence, Ansible, Docker
+    - Hadoopエコサービス：Hadoop, HDFS, Spark, Hive, Impala, beeline
+    - その他：CentOS, Jenkins, Confluence, Ansible, Docker
   - その他アピール事項
     - 2019年3月 Hadoop/Spark Conference Japan 2019 のLTにて発表
       - https://www.slideshare.net/suganoo1/2impalahadoop
@@ -67,7 +67,7 @@
     - MWの導入支援
       - redis, rabbitMQの機能調査
       - 単体試験自動化(rspec)
-  - 使用したプロダクト
+  - 使用したプロダクト等
     - 検索エンジン: Solr, Elasticsearch
     - MW: redis, rabbitMQ
     - デプロイ: Chef, Ansible
