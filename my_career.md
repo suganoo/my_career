@@ -1,13 +1,13 @@
-# 自己PR
+# 職務経歴紹介
 ## 簡単な自己PR
-* インフラ業務経験長い
-* プログラミングも得意
+* インフラ業務経験
+* プログラミング得意
 * 英語力あり
 
 ## 業務歴
 ※新しいものから
 - **2017/04 ~ (現職) Cloudera Hadoop運用**
-  - 業務委託にて従事(株式会社リツアンSTC所属)
+  - 業務委託にて従事(現職:株式会社リツアンSTC所属)
   - DSP広告企業にて常駐業務
   - 配信ログをHadoopにて管理(オンプレミス環境)、ログサイズ約2PB
   - 業務内容
@@ -16,6 +16,7 @@
       - クラスター移行に伴うクラスター間同期システムの構築(distcp後不要なファイルの同期)
       - 定期的なHadoopの状況レポート作成、および状況共有MTGの開催
       - レポートデータのためImpalaクエリログ、Hadoopの各DBサイズ、レコード件数を定期的にElasticsearchにインポートするシステムの構築、Kibanaによる描画構築(Python)
+      - 取得したデータを基にクラスターのメンテナンス検討および作業
       - Cloudera Hadoopの機能調査、不具合調査、Cloudera サポートへの質問対応
       - Hadoopクラスターの設定チューニング
       - ハードウエア障害、クラスター障害、ディスク障害など全般的な障害の調査・対応
@@ -33,7 +34,7 @@
     - ジョブスケジューラー関連の調査および運用
       - airflow、luigi、Jenkins等のジョブスケジューラーの選定調査
       - DockerによるJenkinsの構築、ジョブ構築
-      - Jenkinsジョブの結果をDB、およびJIRAに取り込み、ジョブ実行の分析が可能となるシステムの構築(Go)
+      - Jenkinsジョブの結果をDB、およびJIRAに取り込み、ジョブ実行の分析が可能となるサーバーシステムの構築(Go)
       - チーム内で使うジョブ標準の策定
       - チケット運用の推進
   - 使用したプロダクト等
@@ -41,12 +42,13 @@
     - PG言語：Shell, Python, Go
     - Hadoopディストリビューション：Cloudera
     - Hadoopエコサービス：Hadoop, HDFS, Spark, Hive, Impala, beeline
-    - その他：CentOS, Jenkins, Confluence, Ansible, Docker
+    - OS：CentOS
+    - その他ツール等：Jenkins, Ansible, Docker
   - その他アピール事項
     - 2019年3月 Hadoop/Spark Conference Japan 2019 のLTにて発表
       - https://www.slideshare.net/suganoo1/2impalahadoop
 - **2012/03 ~ 2017/03 (5年) 検索システム構築/運用サポート業務**
-  - 業務委託にて従事(株式会社デジタル・インフォメーション・テクノロジー所属)
+  - 業務委託にて従事(前職:株式会社デジタル・インフォメーション・テクノロジー所属)
   - 某人材系大手企業にて常駐業務
   - 企業内で共通して使用する検索システムの管理
   - 業務内容
@@ -105,12 +107,12 @@
   - https://blog.suganoo.net/
 
 ### 語学
-- 英語 (5年以上前だがTOEIC820、業務にて英語で電話会議、メール経験あり)
+- 英語 (10年以上前だがTOEIC820、業務にて英語で電話会議、メール経験あり)
 
 ### 資格等
-- 応用情報技術者試験
-- 統計検定2級
-- AWSソリューションアーキテクト-アソシエイト
+- 応用情報技術者試験(2008年10月)
+- 統計検定2級(2013年10月)
+- AWSソリューションアーキテクト-アソシエイト(2020年3月)
 
 ### その他アピール事項
 - Go のロガーを作りました。
@@ -119,5 +121,5 @@
   - https://github.com/suganoo/algorithm_and_data_structure_for_procon
 - UdemyにてgRPC学習
   - https://qiita.com/suganoooo/items/8bdf43542eb4ceb80044
-- UdemyにてKafka学習中
+- UdemyにてKafka学習
   - https://www.udemy.com/course/apache-kafka/
