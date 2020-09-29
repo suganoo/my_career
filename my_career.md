@@ -33,6 +33,7 @@
       - AWSサービスで出力されるログの取り込みシステムの構築(SNS, SQS, EC2, Python, Ansible)
       - HDFSに保管されたログファイル数の圧縮システムの構築(Go)
       - Apache DrillにてParquetファイル生成ツールの構築(Go)
+      ‐ AWS Athenaを利用した定期集計バッチ構築
     - ジョブスケジューラー関連の調査および運用
       - airflow、luigi、Jenkins等のジョブスケジューラーの選定調査
       - DockerによるJenkinsの構築、ジョブ構築
@@ -40,7 +41,7 @@
       - チーム内で使うジョブ標準の策定
       - チケット運用の推進
   - 使用したプロダクト等
-    - AWS：EC2, S3, SQS, SNS、RDBS
+    - AWS：EC2, S3, SQS, SNS、RDBS, Athena
     - PG言語：Shell, Python, Go
     - Hadoopディストリビューション：Cloudera
     - Hadoopエコサービス：Hadoop, HDFS, Spark, Hive, Impala, beeline
