@@ -20,10 +20,12 @@
       - レポートデータのためImpalaクエリログ、Hadoopの各DBサイズ、レコード件数を定期的にElasticsearchにインポートするシステムの構築、Kibanaによる描画構築(Python)
       - 取得したデータを基にクラスターのメンテナンス検討および作業
       - Cloudera Hadoopの機能調査、不具合調査、Cloudera サポートへの質問対応
+      - Cloudera ライセンスに関する調査
       - Hadoopクラスターの設定チューニング
       - ハードウエア障害、クラスター障害、ディスク障害など全般的な障害の調査・対応
+      - 大量ファイルを含むテーブルについてのSQLファイル数圧縮対応
     - 各種調査、または業務ツール構築・運用関連作業
-      - 配信ログの取り込みツールの作成(Python, Go)
+      - 配信ログの取り込みツールの作成(AWS SQS, Python, Go)
       - Erasure Coding、Zstandard機能調査
       - COMPUTE STATS機能調査、および障害対応
       - Impala、Hiveのパーティション動作調査
@@ -33,15 +35,17 @@
       - AWSサービスで出力されるログの取り込みシステムの構築(SNS, SQS, EC2, Python, Ansible)
       - HDFSに保管されたログファイル数の圧縮システムの構築(Go)
       - Apache DrillにてParquetファイル生成ツールの構築(Go)
-      ‐ AWS Athenaを利用した定期集計バッチ構築
+      ‐ AWS Athena, EMRを利用した定期集計バッチ構築
     - ジョブスケジューラー関連の調査および運用
       - airflow、luigi、Jenkins等のジョブスケジューラーの選定調査
       - DockerによるJenkinsの構築、ジョブ構築
       - Jenkinsジョブの結果をDB、およびJIRAに取り込み、ジョブ実行の分析が可能となるサーバーシステムの構築(Go)
+      - 上記ツールにより定期的にジョブエラーの集計、報告
       - チーム内で使うジョブ標準の策定
       - チケット運用の推進
   - 使用したプロダクト等
-    - AWS：EC2, S3, SQS, SNS、RDBS, Athena
+    - AWS：EC2, S3, SQS, SNS、RDBS, Athena, EMR
+    - GCP: bigquery, data studio
     - PG言語：Shell, Python, Go
     - Hadoopディストリビューション：Cloudera
     - Hadoopエコサービス：Hadoop, HDFS, Spark, Hive, Impala, beeline
